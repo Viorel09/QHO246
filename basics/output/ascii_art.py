@@ -1,5 +1,5 @@
 # Display a box
-print("##########")
-print("#        #")
-print("#        #")
-print("##########")
+print("\t ##########")
+print("\t #        #")
+print("\t #        #")
+print("\t ##########")
