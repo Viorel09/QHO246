@@ -1,10 +1,15 @@
 # Demonstrating string operators
 print("Please enter the number of lives.")
-number = int(input())
-while (number)
+lives = int(input())
+
 print("Please enter the energy level.")
-number2 = int(input())
+energy = int(input())
+
 print("Please enter the shield level.")
-number3 = int(input())
+shield = int(input())
+
 print("Health has been set")
-print
+
+print("Lives:  " + lives*"\u2665")
+print("Energy: " + energy*"\u2666")
+print("Shield: " + shield*"\u2666")
