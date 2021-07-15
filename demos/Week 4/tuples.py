@@ -21,7 +21,7 @@ def area_and_circ(radius):
 
 def run():
   tuplex = area_and_circ(float(input("Enter radius of your circle: ")))
-  print(f"The area of your circle is {tuplex[0]} and circumference is {tuplex[1]} for a circle of radius {tuplex[2]}")
+  print(f"The area of your circle is {tuplex[0]:.2f} and circumference is {tuplex[1]:.2f} for a circle of radius {tuplex[2]}")
 
 #print("The area of your circle is {} and circumference is {}".format(tuplex[0], tuplex[1]))
 
